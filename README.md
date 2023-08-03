@@ -84,3 +84,9 @@ Example of how output of code will be if excede daily YouTube API quota:
 - Ensure that you have a stable internet connection while running the script.
 - Make sure that playlist is around 50-75 songs because anything more than that will cause for the YouTube API to go out of quota (meaning that you reached the free cap). If you have larger playlist, break it down into smaller chunks (playlists) and run one of the chunks everyday and save them to the same folder. Once you finish downloading all of the chunks, all of the music will be found in the same folder, meaning that you basically downloaded the whole playlist.
 
+#Google Drive
+
+Once all of the MP3 audio files are downloaded, we want to send them to our phone, where we can listen to them for free without adds. 
+For this, we will be using google drive. 
+Go to google drive and import folder. 
+This will take a couple of minutes.
