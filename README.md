@@ -91,10 +91,20 @@ Example of how output of code will be if excede daily YouTube API quota:
 - Go to google drive and import folder. 
 - This will take a couple of minutes.
 
-# Documents by Readlee
+# Documents by Readle
 
 ![image](https://github.com/Rrocketter/Spotify-to-Youtube-Downloader/assets/112651541/03fef5af-5134-40db-bfb9-ca08aa116a2e)
 
 https://apps.apple.com/us/app/documents-file-manager-docs/id364901807 
 
+Documents by Readle is one of the best and most popular apps for playlist MP3 audio files. 
 
+1. Download the App
+2. Sign in to your Google Drive Account where the MP3 files are saved
+3. Open the folder within the google drive where the audio files are saved
+4. select all music files and click the download button at the bottom of the screen
+   - this will save it to your inbox
+5. create a folder within the inbox
+6. select all music from inbox and move it to the folder
+7. play music from the folder and it will play from the app's music player
+8. Now yuou can control music and listen to it add-free!
