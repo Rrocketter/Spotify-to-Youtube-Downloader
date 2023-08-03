@@ -1,9 +1,56 @@
-# Free-Music
-Spotify->MP3->Ad Free Music
+Spotify to YouTube Music Downloader
+This is a Python script that allows you to download audio tracks from a Spotify playlist and fetches the corresponding YouTube videos to convert them into MP3 format.
 
-This python code takes your playlist from Spotify, then searches the songs up from YouTube, then downloads the audio files (MP3) from YouTube. From there, you can use the help of 3rd party sources to help listen to it on your phone!
+Getting Started
+Follow the instructions below to set up the project and run the script.
 
-1. Copy Code and paste it into a IDE supporting Python Code
-   For Most people, just use Visual Studio Code
-   When opening the app, make sure to right click and then click "Run as administrator"
-2. 
+Prerequisites
+Python 3.x installed on your system.
+A Spotify developer account to get the Spotify client credentials.
+A Google Cloud project with the YouTube Data API enabled to get the YouTube API key.
+Installation
+Clone this repository to your local machine:
+
+bash
+Copy code
+git clone https://github.com/your-username/spotify-youtube-downloader.git
+cd spotify-youtube-downloader
+Install the required Python packages using pip:
+
+bash
+Copy code
+pip install spotipy google-api-python-client pytube
+Configuration
+Before running the script, you need to configure the necessary credentials and playlist URI.
+
+Spotify Credentials
+
+Create a Spotify developer account at https://developer.spotify.com/.
+Obtain the Client ID and Client Secret from the Spotify dashboard.
+Replace 'YOUR_SPOTIFY_CLIENT_ID' and 'YOUR_SPOTIFY_CLIENT_SECRET' in the script with your actual credentials.
+YouTube API Key
+
+Go to the Google Cloud Console at https://console.cloud.google.com/.
+Create a new project (if you don't have one) and enable the YouTube Data API for the project.
+Create credentials for the API and get the API key.
+Replace 'YOUR_YOUTUBE_API_KEY' in the script with your actual API key.
+Spotify Playlist URI
+
+Open the Spotify app or web player and navigate to the playlist you want to download.
+Click on the three dots (...) next to the playlist name, then choose "Share" > "Copy Playlist Link."
+Replace 'YOUR_SPOTIFY_PLAYLIST_ID/URL' in the script with the copied playlist link.
+Running the Script
+Once you have completed the configuration steps, you are ready to run the script.
+
+Open a terminal or command prompt and navigate to the project directory.
+
+Run the script using Python:
+
+bash
+Copy code
+python spotify_youtube_downloader.py
+The script will start processing the tracks in the Spotify playlist, searching for corresponding YouTube videos, and downloading the audio for each song. The MP3 files will be saved in the specified folder.
+
+Note
+If a video cannot be found on YouTube for a particular track or if an audio stream is unavailable, the script will skip the track and continue with the next one.
+Ensure that you have a stable internet connection while running the script.
