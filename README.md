@@ -72,4 +72,5 @@ The script will start processing the tracks in the Spotify playlist, searching f
 
 - If a video cannot be found on YouTube for a particular track or if an audio stream is unavailable, the script will skip the track and continue with the next one.
 - Ensure that you have a stable internet connection while running the script.
+- Make sure that playlist is around 50-75 songs because anything more than that will cause for the YouTube API to go out of quota (meaning that you reached the free cap). If you have larger playlist, break it down into smaller chunks (playlists) and run one of the chunks everyday and save them to the same folder. Once you finish downloading all of the chunks, all of the music will be found in the same folder, meaning that you basically downloaded the whole playlist.
 
