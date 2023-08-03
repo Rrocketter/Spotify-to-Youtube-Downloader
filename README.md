@@ -50,7 +50,8 @@ Before running the script, you need to configure the necessary credentials and p
 
 4. **Path to Folder**
    - Create a folder, this is where the mp3 music files are going to be downloaded
-   - copy the path to that folder and paste it into 
+   - copy the path to that folder and paste it into the "PATH_FOLDER"
+     ```audio_stream.download(r"PATH_FOLDER", filename=song_name + ".mp3") #CHANGE PATH FOLDER TO WHERE YOU WANT THE MP3 MUSIC FILES TO BE SAVED```
 
 ### Running the Script
 
