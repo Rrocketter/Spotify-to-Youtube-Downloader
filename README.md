@@ -68,6 +68,16 @@ Once you have completed the configuration steps, you are ready to run the script
 
 The script will start processing the tracks in the Spotify playlist, searching for corresponding YouTube videos, and downloading the audio for each song. The MP3 files will be saved in the specified folder.
 
+Example of how output of code will be if running properly:
+![image](https://github.com/Rrocketter/Spotify-to-Youtube-Downloader/assets/112651541/b6c76c46-bdb7-4924-8606-1262b73bd95f)
+
+- in this, some of the songs were skipped because the video of them was not found on YouTube
+- some songs will be skipped if the name of song on spotify is different than on YouTube
+
+Example of how output of code will be if excede daily YouTube API quota:
+![image](https://github.com/Rrocketter/Spotify-to-Youtube-Downloader/assets/112651541/07f26816-0ed7-42ef-8345-f41cb643a0cc)
+
+
 ### Note
 
 - If a video cannot be found on YouTube for a particular track or if an audio stream is unavailable, the script will skip the track and continue with the next one.
