@@ -1,6 +1,6 @@
 Sure! Below is the README with proper GitHub markdown formatting:
 
-```
+
 # Spotify to YouTube Music Downloader
 
 This is a Python script that allows you to download audio tracks from a Spotify playlist and fetches the corresponding YouTube videos to convert them into MP3 format.
@@ -70,9 +70,3 @@ The script will start processing the tracks in the Spotify playlist, searching f
 - If a video cannot be found on YouTube for a particular track or if an audio stream is unavailable, the script will skip the track and continue with the next one.
 - Ensure that you have a stable internet connection while running the script.
 
----
-
-Make sure to replace "your-username" in the GitHub repository URL with your actual GitHub username. Also, provide the correct path for the `PATH_FOLDER` where you want the downloaded MP3 files to be saved.
-
-Remember to update the README with any specific information or troubleshooting tips relevant to your project. Happy coding and enjoy your Spotify to YouTube music downloader!
-```
