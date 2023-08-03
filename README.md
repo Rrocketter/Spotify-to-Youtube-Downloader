@@ -48,6 +48,10 @@ Before running the script, you need to configure the necessary credentials and p
    - Click on the three dots (...) next to the playlist name, then choose "Share" > "Copy Playlist Link."
    - Replace `'YOUR_SPOTIFY_PLAYLIST_ID/URL'` in the script with the copied playlist link.
 
+4. **Path to Folder**
+   - Create a folder, this is where the mp3 music files are going to be downloaded
+   - copy the path to that folder and paste it into 
+
 ### Running the Script
 
 Once you have completed the configuration steps, you are ready to run the script.
