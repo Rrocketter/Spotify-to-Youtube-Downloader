@@ -86,7 +86,7 @@ Example of how output of code will be if excede daily YouTube API quota:
 
 # Google Drive
 
-Once all of the MP3 audio files are downloaded, we want to send them to our phone, where we can listen to them for free without adds. 
-For this, we will be using google drive. 
-Go to google drive and import folder. 
-This will take a couple of minutes.
+- Once all of the MP3 audio files are downloaded, we want to send them to our phone, where we can listen to them for free without adds. 
+- For this, we will be using google drive. 
+- Go to google drive and import folder. 
+- This will take a couple of minutes.
